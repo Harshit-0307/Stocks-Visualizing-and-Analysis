@@ -62,7 +62,6 @@ app.layout=html.Div(
                 html.Div(children=[
                     #stats of selected data works with Name
                     html.Div(children=[
-                        html.Div('Div_stats'),
                         dash_table.DataTable(id='stats'),
                     ],
                     
